@@ -1,8 +1,10 @@
-var express = require('express');
-var router = express.Router();
+let express = require('express');
+let router = express.Router();
+let model = require('../db/model');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  
   res.render('index', { title: 'Express' });
 });
 
