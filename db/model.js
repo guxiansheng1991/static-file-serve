@@ -19,8 +19,8 @@ module.exports = {
             console.error(`insert error: ${err}`);
             reject(err);
           }
-          resolve(res);
           conn.release();
+          resolve(res);
         });
       });
     });
@@ -37,8 +37,8 @@ module.exports = {
             console.error(`insert error: ${err}`);
             reject(err);
           }
-          resolve(res);
           conn.release();
+          resolve(res);
         });
       });
     });
@@ -55,8 +55,8 @@ module.exports = {
             console.error(`insert error: ${err}`);
             reject(err);
           }
-          resolve(res);
           conn.release();
+          resolve(res);
         });
       });
     });
@@ -73,8 +73,8 @@ module.exports = {
             console.error(`insert error: ${err}`);
             reject(err);
           }
-          resolve(res);
           conn.release();
+          resolve(res);
         });
       });
     });
